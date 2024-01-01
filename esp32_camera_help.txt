@@ -1,6 +1,7 @@
 ESP32 Camera supports up to four modules. The camera module and the phone must be connected to the same wireless local network.
       
 If the camera module uses default face recognition sketch, the url address for streaming in the application must be set to http://cameraIP:81/stream (for example: http://192.168.1.123:81/stream). To change resolution of the camera module, enter the camera IP adress in the web browser (for example: http://192.168.1.123), not in the ESP32 Camera application, because there is not java script support. 
+
 For programming the ESP32Cam module, also this arduino sketch can be used: https://github.com/arkhipenko/esp32-cam-mjpeg-multiclient. It supports up to 10 clients. The resolution of the camera can be changed only in the sketch. The url address in application must be set to http://cameraIP/mjpeg/1 (for example: http://192.168.1.123/mjpeg/1)
 
 In the application settings, all cameras labels can be changed. Sometimes takes time for connection the camera, please wait.    
